@@ -102,7 +102,7 @@ body {
     font-size: 1rem;
 
     padding: 0.5rem 1rem;
-    transition: background 500ms ease-out;
+    transition: background 250ms ease-in;
 
     margin-bottom: 2rem;
 }
