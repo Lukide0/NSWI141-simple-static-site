@@ -25,6 +25,20 @@ body {
     color: var(--font-color);
 }
 
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--highlight-color);
+    border-bottom: 1px solid var(--highlight-color);
+
+    transition: border-bottom-width 250ms ease;
+}
+
+a:hover,
+a:focus {
+    border-bottom-width: 5px;
+}
+
 /* HEADER */
 #site-header {
     background: var(--header-color);
