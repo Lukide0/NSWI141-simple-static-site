@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="flexbox.css">
-    <link rel="stylesheet" href="multiple_articles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="flexbox.css" />
+    <link rel="stylesheet" href="multiple_articles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Personal blog</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="site-header">
-        <h1><a title="Blog home page" href="#">Blog</a></h1>
-        <nav>
-            <ul>
-                <li><a title="register" href="auth.html">Register</a></li>
-                <li><a title="sign in" href="auth.html">Sign in</a></li>
-            </ul>
-        </nav>
+      <h1><a title="Blog home page" href="#">Blog</a></h1>
+      <nav>
+        <ul>
+          <li><a title="register" href="auth.html">Register</a></li>
+          <li><a title="sign in" href="auth.html">Sign in</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="container center">
-        <div class="articles">
-            <article>
-                <img src="https://picsum.photos/300/200?random=1" alt="Lorem Picsum image">
-                <header>
-                    <time datetime="2022-05-11">May 11. 2022</time>
-                    <h2>Objektově orientované programování (OOP)</h2>
-                </header>
-                <p>Je to programovací paradigma jehož základní jednotkou je objekt, který odpovídá nějakému objektu z reálného světa (např. člověk, auto). Je to soběstačná entita, která obsahuje atributy a metody...</p>
-            </article>
-            <article>
-                <img src="https://picsum.photos/300/200?random=2" alt="Lorem Picsum image">
-                <header>
-                    <time datetime="2022-04-26">April 26. 2022</time>
-                    <h2>Datové struktury</h2>
-                </header>
-                <p>Každá data jsou reprezentována datovými typy. Ty můžeme také skládat do struktur (třídy,..). Každá datová struktura má své operace, které mají svojí časovou náročnost (Big O notation)...</p>
-            </article>
-            <article>
-                <img src="https://picsum.photos/300/200?random=3" alt="Lorem Picsum image">
-                <header>
-                    <time datetime="2022-04-20">April 20. 2022</time>
-                    <h2>Monetizace aplikací</h2>
-                </header>
-                <p>Monetizace slouží k pokrytí nákladů za aplikaci a případný dlouhodobý pasivní příjem z ní. Každý projekt, ať už jde o webovou stránku, mobilní či desktopovou aplikaci nebo dokonce hru,...</p>
-                <a href="single_post.html">Continue reading</a>
-            </article>
-        </div>
-        <div class="row center">
-            <button id="btn-load-articles">Load more</button>
-        </div>
+      <div class="articles">
+        <article>
+          <img
+            src="https://picsum.photos/300/200?random=1"
+            alt="Lorem Picsum image"
+          />
+          <header>
+            <time datetime="2022-05-11">May 11. 2022</time>
+            <h2>Objektově orientované programování (OOP)</h2>
+          </header>
+          <p>
+            Je to programovací paradigma jehož základní jednotkou je objekt,
+            který odpovídá nějakému objektu z reálného světa (např. člověk,
+            auto). Je to soběstačná entita, která obsahuje atributy a metody...
+          </p>
+        </article>
+        <article>
+          <img
+            src="https://picsum.photos/300/200?random=2"
+            alt="Lorem Picsum image"
+          />
+          <header>
+            <time datetime="2022-04-26">April 26. 2022</time>
+            <h2>Datové struktury</h2>
+          </header>
+          <p>
+            Každá data jsou reprezentována datovými typy. Ty můžeme také skládat
+            do struktur (třídy,..). Každá datová struktura má své operace, které
+            mají svojí časovou náročnost (Big O notation)...
+          </p>
+        </article>
+        <article>
+          <img
+            src="https://picsum.photos/300/200?random=3"
+            alt="Lorem Picsum image"
+          />
+          <header>
+            <time datetime="2022-04-20">April 20. 2022</time>
+            <h2>Monetizace aplikací</h2>
+          </header>
+          <p>
+            Monetizace slouží k pokrytí nákladů za aplikaci a případný
+            dlouhodobý pasivní příjem z ní. Každý projekt, ať už jde o webovou
+            stránku, mobilní či desktopovou aplikaci nebo dokonce hru,...
+          </p>
+          <a href="single_post.html">Continue reading</a>
+        </article>
+      </div>
+      <div class="row center">
+        <button id="btn-load-articles">Load more</button>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
