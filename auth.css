@@ -1,5 +1,4 @@
-#error 
-{
+#error {
     margin-top: 2rem;
     max-width: 75%;
     align-items: center;
@@ -7,7 +6,7 @@
 
 #error > h2 {
     margin-bottom: 1rem;
-    font-size: 3rem;    
+    font-size: 3rem;
 }
 
 #error > p {
