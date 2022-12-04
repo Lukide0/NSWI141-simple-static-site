@@ -67,8 +67,33 @@ a:focus {
     color: var(--header-font-color);
 }
 
-h1 > *{
+h1 > * {
     font-size: 2rem;
+}
+
+.comparison-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.comparison-table > tbody > tr {
+    border-width: 1px 0;
+    border-color: var(--font-color);
+    border-style: solid;
+}
+
+.comparison-table td {
+    padding: 1.5rem 1rem;
+}
+
+.comparison-table td.check::before {
+    display: block;
+    content: "✓";
+    color: #004643;
+}
+
+.comparison-table td.check {
+    text-align: center;
 }
 
 ::-webkit-scrollbar {

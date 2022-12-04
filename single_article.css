@@ -1,12 +1,10 @@
 #main-article > header,
 #main-article > section,
-#main-article > p 
-{
+#main-article > p {
     width: 75%;
 }
 
-#main-article > header
-{
+#main-article > header {
     margin: 2rem 0 3rem 0;
 }
 
@@ -14,28 +12,44 @@
     font-size: 3rem;
 }
 
-#main-article > img 
-{
+#main-article > img {
     width: 100%;
     height: 20rem;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
-#main-article > p 
-{
+#main-article > p {
     font-size: 1.4rem;
     font-weight: 600;
 
     margin-bottom: 3rem;
 }
 
-#main-article > section 
-{
+#main-article > section {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-#main-article > section > h3
-{
+#main-article > section > h3 {
     margin-bottom: 0.75rem;
+}
+
+#main-article > section > p,
+#main-article > section > ul {
+    margin-left: 0.5rem;
+}
+
+#main-article h4,
+#main-article ul,
+#main-article ul > li > * {
+    margin: 0.5rem 0;
+}
+
+#main-article ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+#main-article ul li p {
+    margin-left: 0.75rem;
 }
