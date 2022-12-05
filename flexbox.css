@@ -9,14 +9,17 @@
     flex-flow: row wrap;
 }
 
+/*
 .left {
     justify-content: flex-start;
 }
+*/
 
 .center {
     justify-content: center;
 }
 
+/*
 .right {
     justify-content: flex-end;
 }
@@ -36,11 +39,11 @@
 .top {
     align-items: flex-start;
 }
-
+*/
 .middle {
     align-items: center;
 }
-
+/*
 .bottom {
     align-items: flex-end;
 }
@@ -71,3 +74,4 @@
     flex: 1;
     width: 100%;
 }
+*/
